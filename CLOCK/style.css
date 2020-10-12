@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://media.giphy.com/media/dAWZiSMbMvObDWP3aA/giphy.gif");
+    background-size: cover;
+    padding: 25px;
+    align-items: center;
+}
+
+.clockface{
+    border: solid white 20px;
+    position: relative;
+    top:50%;
+    right: 0%;
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    padding: 45px;
+    margin: 0 auto ;
+    align-items: center;
+        
+}
+.hand_second{
+    
+    border: solid red 2px;
+    position: relative;
+    top:46%;
+    right: 0%;
+    width: 225px;
+    transform-origin: 100%;    
+
+}
+
+.hand_minute{
+    
+    border: solid blue 4px;
+    position: relative;
+    top:47%;
+    right: 7%;
+    width: 250px;
+    transform-origin: 100%;
+    transition: all 0.5s;
+}
+
+.hand_hour{
+    border: solid black 9px;
+    position: relative;
+    top:50%;
+    right: 3%;
+    width: 225px;
+    transform-origin: 100%;
+    transition: all 0.5s;
+
+}
